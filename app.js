@@ -11,12 +11,7 @@ const storeRoute = require('./routes/store.routes');
 const supplierRoute = require('./routes/supplier.routes');
 const stockRoute = require('./routes/stock.routes');
 const userRoute = require('./routes/user.routes');
-app.get("/allROutestersfs",()=>{
-    res.send("route is woriking");
-})
-app.get("/",()=>{
-    res.send("route is woriking");
-})
+ 
   
     app.use("/api/v1/product",productRoute)
     app.use("/api/v1/brand",brandRoute)
